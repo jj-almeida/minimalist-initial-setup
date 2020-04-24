@@ -1,17 +1,17 @@
 #!/usr/bin/env node
 
 // Module dependencies.
-import debugLib from 'debug';
+// import debugLib from 'debug';
 import http from 'http';
 import app from '../app';
 
-const debug = debugLib('minimalist-initial-setup:server');
+// const debug = debugLib('minimalist-initial-setup:server');
 
 // TODO: Checar esse require
 // require('dotenv').config();
 
 // Get port from environment and store in Express.
-const port = normalizePort(process.env.PORT || '3000');
+const port = normalizePort(process.env.PORT || '8080');
 app.set('port', port);
 
 // Create HTTP server.
@@ -66,5 +66,5 @@ function onError(error) {
 function onListening() {
   const addr = server.address();
   const bind = typeof addr === 'string' ? `pipe ${addr}` : `port ${addr.port}`;
-  debug(`Listening on ${bind}`);
+  // debug(`Listening on ${bind}`);  COLOCAR LOG AQUI!!!!!!
 }
