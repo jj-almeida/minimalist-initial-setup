@@ -4,22 +4,28 @@ A Minimalist Node.js Initial Setup
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+The easiest way to install this template is following the guide provided by Github:
 
-```bash
-pip install foobar
+https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
+
+Or, if you prefer, run the following command:
+
+```
+git clone https://github.com/almeida-joseantonio/minimalist-initial-setup <YOUR_PROJECT_NAME>
 ```
 
 ## Usage
 
-```python
-import foobar
+Edit the ```package.json``` with your project information and install packages
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
 ```
+yarn install
+```
+Or
 
+```
+npm install
+```
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
