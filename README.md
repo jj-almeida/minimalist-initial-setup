@@ -21,7 +21,7 @@ Edit the ```package.json``` with your project information and install packages
 ```
 yarn install
 ```
-Or
+OR
 
 ```
 npm install
